@@ -1,0 +1,32 @@
+// NXP Configuration
+android_app {
+    name: "Nfc",
+    srcs: [
+        "src/**/*.java",
+        "nxp/**/*.java",
+    ],
+    platform_apis: true,
+    certificate: "platform",
+    jni_libs: ["libnfc_nci_jni"],
+    static_libs: ["androidx.legacy_legacy-support-v4"],
+    optimize: {
+        enabled: false,
+    },
+}
+
+// NCI Configuration
+android_app {
+    name: "NfcNci",
+    overrides: ["Nfc"],
+    srcs: [
+        "src/**/*.java",
+        "nci/**/*.java",
+    ],
+    platform_apis: true,
+    certificate: "platform",
+    jni_libs: ["libnfc_nci_jni"],
+    static_libs: ["androidx.appcompat_appcompat"],
+    optimize: {
+        enabled: false,
+    },
+}

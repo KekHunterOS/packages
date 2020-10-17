@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Kalender</string>
+    <string name="what_label">Hvad</string>
+    <string name="where_label">Hvor</string>
+    <string name="when_label">Hvornår</string>
+    <string name="timezone_label">Tidszone</string>
+    <string name="attendees_label">Gæster</string>
+    <string name="today">I dag</string>
+    <string name="tomorrow">I morgen</string>
+    <string name="today_at_time_fmt">"I dag kl. <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt">"I morgen kl. <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="repeats_label">Gentagelse</string>
+    <string name="no_title_label">(Ingen titel)</string>
+    <plurals name="Nminutes">
+        <item quantity="one">1 minut</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minutter</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 min.</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> min.</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 time</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> timer</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 dag</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dage</item>
+    </plurals>
+    <string name="show_day_view">"Vis dag"</string>
+    <string name="agenda_view">"Agenda"</string>
+    <string name="day_view">"Dag"</string>
+    <string name="week_view">"Uge"</string>
+    <string name="month_view">"Måned"</string>
+    <string name="event_view">"Vis begivenhed"</string>
+    <string name="event_create">"Ny begivenhed"</string>
+    <string name="event_edit">"Rediger"</string>
+    <string name="event_delete">"Slet begivenhed"</string>
+    <string name="goto_today">"I dag"</string>
+    <string name="menu_preferences">"Indstillinger"</string>
+    <string name="search">"Søg"</string>
+    <string name="hide_controls">"Skjul knapper"</string>
+    <string name="show_controls">"Vis knapper"</string>
+    <string name="select_synced_calendars_button">Kalendere til synkronisering</string>
+    <string name="hint_what">"Begivenhedens navn"</string>
+    <string name="hint_where">"Placering"</string>
+    <string name="hint_description">"Beskrivelse"</string>
+    <string name="hint_attendees">"Gæster"</string>
+    <string name="creating_event">"Begivenheden er oprettet."</string>
+    <string name="saving_event">"Begivenheden er gemt."</string>
+    <string name="empty_event">"Tom begivenhed ikke oprettet."</string>
+    <string name="creating_event_with_guest">"Invitationer sendes."</string>
+    <string name="saving_event_with_guest">"Opdateringer sendes."</string>
+    <string name="rsvp_accepted">"Har svaret ja."</string>
+    <string name="rsvp_tentative">"Har svaret måske."</string>
+    <string name="rsvp_declined">"Har svaret nej."</string>
+    <string name="create_event_dialog_save">Gem</string>
+    <string name="alert_title">Underretninger fra Kalender</string>
+    <string name="event_info_title">Vis begivenhed</string>
+    <string name="event_info_title_invite">Mødeinvitation</string>
+    <string name="edit_event_to_label">Til</string>
+    <string name="edit_event_from_label">Fra</string>
+    <string name="edit_event_all_day_label">Hele dagen</string>
+    <string name="edit_event_calendar_label">Kalender</string>
+    <string name="description_label">Beskrivelse</string>
+    <string name="presence_label">Vis mig som</string>
+    <string name="privacy_label">Privatliv</string>
+    <string name="reminders_label">Tilføj påmindelse</string>
+    <string name="no_syncable_calendars">Der er ingen kalendere</string>
+    <string name="no_calendars_found">Før du kan tilføje en begivenhed, skal du tilføje mindst én Kalender-konto til din enhed og gøre en kalender synlig. Tryk på Tilføj konto for at tilføje en konto (hvis du lige har tilføjet en konto, så vent til den er færdig med at synkronisere, og prøv så igen). Eller tryk på Annuller, og sørg for, at mindst én kalender er synlig.</string>
+    <string name="add_account">Tilføj konto</string>
+    <string name="view_event_calendar_label">Kalender:</string>
+    <string name="view_event_organizer_label">Organisator:</string>
+    <string name="choose_event_color_label">Vælg begivenhedsfarve</string>
+    <string name="event_color_picker_dialog_title">Begivenhedsfarve</string>
+    <string name="event_color_set_to_default">Indstil som standardkalenderfarve</string>
+    <string name="calendar_color_picker_dialog_title">Kalenderfarve</string>
+    <string name="calendar_square_color_picker_description">Farvevælger</string>
+    <string name="view_event_response_label">Deltager?</string>
+    <string name="response_yes">Ja</string>
+    <string name="response_maybe">Måske</string>
+    <string name="response_no">Nej</string>
+    <string name="email_guests_label">Send e-mail til gæster</string>
+    <string name="email_organizer_label">Send e-mail til arrangøren</string>
+    <string name="email_picker_label">Send e-mail til</string>
+    <string name="event_not_found">"Begivenheden blev ikke fundet."</string>
+    <string name="map_label">Kort</string>
+    <string name="call_label">Ring op</string>
+    <string name="quick_response_settings">Hurtige svar</string>
+    <string name="quick_response_settings_summary">Rediger standardsvar, der kan sendes til gæster</string>
+    <string name="quick_response_settings_edit_title">Hurtigt svar</string>
+    <string name="quick_response_dialog_title">Vælg hurtigt svar</string>
+    <string name="quick_response_email_failed">E-mailprogrammet kunne ikke findes</string>
+    <string-array name="quick_response_defaults">
+        <item>Er kun et par minutter forsinket.</item>
+        <item>Er der om ca. 10 minutter.</item>
+        <item>Gå bare i gang uden mig.</item>
+        <item>Jeg kan desværre ikke nå det. Vi bliver nødt til at lave en ny aftale.</item>
+    </string-array>
+    <string name="quick_response_custom_msg">Skriv dit eget svar…</string>
+    <string name="event_info_organizer">Organisator:</string>
+    <string name="event_info_reminders_label">Påmindelser</string>
+    <string name="loading">Indlæser...</string>
+    <string name="show_older_events">Tryk for at få vist begivenheder før <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
+    <string name="show_newer_events">Tryk for at få vist begivenheder efter <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
+    <string name="search_title">Søg i mine kalendere</string>
+    <string name="edit_event_label">"Detaljer"</string>
+    <string name="edit_label">"Rediger"</string>
+    <string name="delete_label">"Slet"</string>
+    <string name="save_label">Gem</string>
+    <string name="discard_label">Annuller</string>
+    <string name="dismiss_all_label">"Luk alle"</string>
+    <string name="snooze_label">"Udsæt"</string>
+    <string name="does_not_repeat">Én gang</string>
+    <string name="endByDate">, indtil den <xliff:g id="DATE">%s</xliff:g></string>
+    <plurals name="endByCount">
+        <item quantity="one">, én gang</item>
+        <item quantity="other">, <xliff:g id="NUMBER">%d</xliff:g> gange</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">Dagligt</item>
+        <item quantity="other">Hver <xliff:g id="NUMBER">%d</xliff:g>. dag</item>
+    </plurals>
+    <string name="every_weekday">"Hverdage (man.-fre.)"</string>
+    <plurals name="weekly">
+        <item quantity="one">Ugentligt om <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+        <item quantity="other">Hver <xliff:g id="NUMBER">%1$d</xliff:g>. uge om <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+    </plurals>
+    <string name="monthly">Månedligt</string>
+    <string name="yearly_plain">Årligt</string>
+    <string name="custom" product="default">"Tilpasset (kan ikke tilpasses på telefon)"</string>
+    <string name="modify_event">Rediger kun denne begivenhed</string>
+    <string name="modify_all">Rediger alle begivenheder i rækken</string>
+    <string name="modify_all_following">Rediger denne og alle fremtidige begivenheder.</string>
+    <string name="new_event_dialog_label">"Ny begivenhed"</string>
+    <string name="new_event_dialog_option">"Ny begivenhed"</string>
+    <string name="delete_this_event_title">Vil du slette denne begivenhed?</string>
+    <string name="delete_recurring_event_title">Vil du slette <xliff:g id="EVENTTITLE">%s</xliff:g>?</string>
+    <string name="change_response_title">Skift svar</string>
+    <string name="preferences_title">"Indstillinger"</string>
+    <string name="preferences_general_title">Indstillinger for kalendervisning</string>
+    <string name="preferences_reminder_title">Underretninger og påmindelser</string>
+    <string name="preferences_hide_declined_title">Skjul afviste begivenheder</string>
+    <string name="preferences_week_start_day_title">Ugen starter</string>
+    <string name="preferences_week_start_day_dialog">Ugen starter</string>
+    <string name="preferences_clear_search_history_title">Ryd søgehistorik</string>
+    <string name="preferences_clear_search_history_summary">Fjern alle foretagne søgninger</string>
+    <string name="search_history_cleared">Søgeoversigten er ryddet.</string>
+    <string name="preferences_alerts_title">Underretninger</string>
+    <string name="preferences_alerts_vibrateWhen_title">Vibration</string>
+    <string name="preferences_alerts_ringtone_title">Lyd</string>
+    <string name="preferences_alerts_popup_title">Pop op-underretning</string>
+    <string name="preferences_default_reminder_title">Standard påmindelsestid</string>
+    <string name="preferences_default_reminder_dialog">Standard påmindelsestid</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_use_home_tz_title">Brug egen tidszone</string>
+    <string name="preferences_use_home_tz_descrip">Viser kalenderbegivenheder i din tidszone, når du rejser</string>
+    <string name="preferences_home_tz_title">Egen tidszone</string>
+    <string name="preferences_show_week_num_title">Vis ugenummer</string>
+    <string name="preferences_build_version">Version</string>
+    <plurals name="month_more_events">
+        <item quantity="one">"+1"</item>
+        <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
+    </plurals>
+    <string name="gadget_no_events">Ingen kommende kalenderbegivenheder</string>
+    <string name="preferences_experimental_category">Eksperimenterende</string>
+    <string name="preferences_reminders_responded_label">Spring påmindelser over</string>
+    <string name="preferences_reminders_responded_dialog">Spring påmindelser over</string>
+    <string name="copy_db">Send database</string>
+    <string name="directory_searching_fmt">Søger efter <xliff:g id="DOMAIN">%s</xliff:g>…</string>
+    <string name="accessibility_remove_attendee">Fjern deltager</string>
+    <string name="accessibility_pick_start_date">Startdato</string>
+    <string name="accessibility_pick_start_time">Starttidspunkt</string>
+    <string name="accessibility_pick_end_date">Slutdato</string>
+    <string name="accessibility_pick_end_time">Sluttidspunkt</string>
+    <string name="accessibility_pick_time_zone">Tidszone</string>
+    <string name="accessibility_pick_recurrence">Gentag begivenhed</string>
+    <string name="accessibility_add_reminder">Tilføj påmindelse</string>
+    <string name="accessibility_remove_reminder">Fjern påmindelse</string>
+    <string name="accessibility_add_attendee">Tilføj deltager</string>
+    <string name="accessibility_all_day">Heldagsbegivenhed</string>
+    <string name="accessibility_reminder_time">Tidspunkt for påmindelse</string>
+    <string name="accessibility_reminder_type">Påmindelsestype</string>
+    <string name="accessibility_reminder_showmeas">Vis mig som</string>
+    <string name="accessibility_reminder_privacy">Privatliv</string>
+    <string name="day_view_new_event_hint">+ Ny begivenhed</string>
+    <string name="template_announce_item_index">Begivenhed <xliff:g id="ITEM_INDEX">%1$s</xliff:g> ud af <xliff:g id="ITEM_COUNT">%2$s</xliff:g>.</string>
+    <plurals name="Nevents">
+        <item quantity="one">1 begivenhed</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> begivenheder</item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 begivenhed</item>
+        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> begivenheder</item>
+    </plurals>
+    <string name="acessibility_selected_marker_description">Valgt begivenhed</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Hver <xliff:g id="COUNT">%d</xliff:g> dag</item>
+        <item quantity="other">Hver <xliff:g id="COUNT">%d</xliff:g>. dag</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> gang om ugen</item>
+        <item quantity="other">Hver <xliff:g id="COUNT">%d</xliff:g>. uge</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> gang om måneden</item>
+        <item quantity="other">Hver <xliff:g id="COUNT">%d</xliff:g>. måned</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> gang om året</item>
+        <item quantity="other">Hvert <xliff:g id="COUNT">%d</xliff:g>. år</item>
+    </plurals>
+    <string name="recurrence_month_pattern_by_day">samme dag hver måned</string>
+    <string name="recurrence_end_continously">For altid</string>
+    <string name="recurrence_end_date_label">Frem til en bestemt dato</string>
+    <string name="recurrence_end_date">Indtil <xliff:g id="DATE">%s</xliff:g></string>
+    <string name="recurrence_end_count_label">Et antal gange</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">For <xliff:g id="EVENT_COUNT">%d</xliff:g> begivenhed</item>
+        <item quantity="other">For <xliff:g id="EVENT_COUNT">%d</xliff:g> begivenheder</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">skift slutdato</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="layout_grid">Vista de quadrícula</string>
+    <string name="layout_filmstrip">Vista de tira de pel·lícula</string>
+    <string name="slideshow_settings">Presentació de diapositives</string>
+    <string name="slideshow_random_title">Mostra en ordre aleatori</string>
+    <string name="slideshow_repeat_title">Repeteix</string>
+    <string name="unit_sec">s</string>
+    <string name="slideshow_duration_title">Temps de retard</string>
+    <string name="video_settings">Vídeo</string>
+    <string name="video_one_title">Vídeo1</string>
+    <string name="video_two_title">Vídeo2</string>
+    <string name="group_by_type">Per tipus</string>
+    <string name="types">Tipus</string>
+    <string name="type">Tipus</string>
+    <string name="type_videos">Vídeos</string>
+    <string name="type_images">Imatges</string>
+    <string name="wallpaper_type_dialog_title">Estableix el fons de pantalla</string>
+    <string name="wallpaper_type_both">Pantalles d\'inici i de bloqueig</string>
+    <string name="wallpaper_type_system">Pàgina d\'inici</string>
+    <string name="wallpaper_type_lock">Pantalla de bloqueig</string>
+    <string name="scrolling_wall_dialog_text">Voleu retallar el fons de pantalla a la mida de visualització\u003f</string>
+    <string name="scrolling_wall_dialog_title">Retalla el fons de pantalla</string>
+    <string name="scrolling_wall_yes">No</string>
+    <string name="scrolling_wall_no">Sí</string>
+</resources>

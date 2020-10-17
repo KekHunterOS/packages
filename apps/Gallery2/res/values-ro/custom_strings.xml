@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="layout_grid">Afişare tip grilă</string>
+    <string name="layout_filmstrip">Afişare tip bandă de film</string>
+    <string name="slideshow_settings">Prezentare</string>
+    <string name="slideshow_random_title">În ordine aleatoare</string>
+    <string name="slideshow_repeat_title">Repetare</string>
+    <string name="unit_sec">sec</string>
+    <string name="slideshow_duration_title">Timp de întârziere</string>
+    <string name="video_settings">Video</string>
+    <string name="video_one_title">Video1</string>
+    <string name="video_two_title">Video2</string>
+    <string name="group_by_type">După tip</string>
+    <string name="types">Tipuri</string>
+    <string name="type">Tip</string>
+    <string name="type_videos">Videoclipuri</string>
+    <string name="type_images">Imagini</string>
+    <string name="wallpaper_type_dialog_title">Setați imaginea de fundal</string>
+    <string name="wallpaper_type_both">Ecranul de pornire şi blocarea ecranului</string>
+    <string name="wallpaper_type_system">Ecran de pornire</string>
+    <string name="wallpaper_type_lock">Ecran de deblocare</string>
+    <string name="scrolling_wall_dialog_text">Doriți să decupați imaginea de fundal la dimensiunea ecranului\u003f</string>
+    <string name="scrolling_wall_dialog_title">Decupare imagine de fundal</string>
+    <string name="scrolling_wall_yes">Nu</string>
+    <string name="scrolling_wall_no">Da</string>
+</resources>
